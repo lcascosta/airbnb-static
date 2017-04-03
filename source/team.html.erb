@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <% data.team.each do |classmate, infos| %>
+      <div class="col-md-4">
+        <%= image_tag infos.picture, class: "img-thumbnail" %>
+        <h2><%= classmate.capitalize %></h2>
+        <p>Tel: <%= infos.tel %></p>
+        <p>E-mail: <%= infos.mail %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
