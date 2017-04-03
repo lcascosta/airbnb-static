@@ -1,0 +1,20 @@
+<div class="wrapper-light-grey">
+  <div class="container">
+    <h2 class="text-center padded">Your next trip </h2>
+    <div class="row">
+      <% data.city_cards.each do |city, infos| %>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-city" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= asset_url infos.picture %>);">
+            <h2 class="card-title"><%= city.capitalize %></h2>
+            <div class="card-content">
+              <h2><%= infos.host %>'s home</h2>
+              <p><%= infos.message %></p>
+            </div>
+            <%= image_tag infos.host_pic, class: "avatar-large" %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+

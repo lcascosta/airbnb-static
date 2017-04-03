@@ -1,0 +1,17 @@
+brussels:
+  picture: images/card-brussels.jpeg
+  host: Anne
+  host_pic: anne.jpg
+  message: Come visit!
+
+london:
+  picture: images/card-london.jpeg
+  host: Romain
+  host_pic: romain.jpeg
+  message: You are welcome!
+
+paris:
+  picture: images/card-paris.jpg
+  host: Seb
+  host_pic: seb.jpg
+  message: Bienvenue!

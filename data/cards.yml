@@ -1,0 +1,15 @@
+globe:
+  message_h2: Discover the World
+  message_p: The earth is your new home.
+
+beer:
+  message_h2: Beer is Life
+  message_p: Drink the golden liquid of the gods.
+
+dollar:
+  message_h2: Let's make it Rain
+  message_p: Spend every penny.
+
+heart:
+  message_h2: Love is in the Air
+  message_p: Everywhere I come around.

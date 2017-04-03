@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <% data.cards.each do |icon, infos| %>
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+          <%= image_tag "#{icon}.png" %>
+          <h2><%= infos.message_h2 %></h2>
+          <p><%= infos.message_p %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
